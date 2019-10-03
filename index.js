@@ -12,7 +12,6 @@ function updateChannel(channelID) {
 	//Check if the response is valid
 	let response = JSON.parse(infoResponse.body);
 	if (slack.isValidResponse(response)) {
-		//verify if ok=true and topic value here code 200 for get
 		let currentTopic = slack.isPrivate(channelID) ? response.group.topic.value : response.channel.topic.value;
 		// Check if current topic is null
 		if (currentTopic === null) {

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-pagerduty": "^1.1.5",
+    "slack-topic-updater": "^0.0.6",
+    "sync-request": "^6.1.0"
+  }
+}

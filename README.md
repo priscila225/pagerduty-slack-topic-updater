@@ -1,12 +1,13 @@
 # pagerduty-slack-topic-updater
 
+Simple function to read the pagerduty on-call calendar schedule and update the slack topics channels automatically
 
-Install dependencies: 
+## Install dependencies
 
-yarn add moment
-yarn add node-pagerduty
-yarn add slack-topic-updater
-yarn add sync-request
+*   yarn add moment
+*   yarn add node-pagerduty
+*   yarn add slack-topic-updater
+*   yarn add sync-request
 
 ## Slack Authorization 
 

@@ -1,6 +1,6 @@
 # pagerduty-slack-topic-updater
 
-Simple function to read the pagerduty on-call calendar schedule and update the slack topics channels automatically
+A simple and clean nodeJS function to read the pagerduty on-call calendar schedule and update the slack topics channels automatically
 
 ## Install dependencies
 

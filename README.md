@@ -26,4 +26,4 @@ IMPORTANT NOTE: The app will only be able to access channels that you are in (th
 Once you've added the scopes, follow the instructions under Settings: Install App. You should be provided with an OAuth Access Token, which is what you'll need to send through to this module. Bot user tokens are NOT SUPPORTED by the channels.setTopic endpoint, so they can't be used here - you must use a user token instead. Reference about the user token from docs: https://api.slack.com/methods/channels.setTopic
 
 ## Run the bot
-SLACK_API_KEY=xoxp-your-api-key-here CHANNEL_ID=your-slack-channel-id-here PAGERDUTY_API_KEY=your-pd-api-here node index.js
+SLACK_API_KEY=xoxp-your-api-key-here CHANNEL_ID=your-slack-channel-id-here PAGERDUTY_API_KEY=your-pd-api-here node PAGERDUTY_SCHEDULE_ID=your-schedule-id-here index.js
